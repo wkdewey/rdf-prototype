@@ -57,3 +57,44 @@ work—type=”englishTranslation”
 		label(name)
 	attribution—role=”finalReviewer”, resource=[84000_id]
 		label(name)
+
+domain: parent elements
+range: child elements
+
+example of rdf roles (existing 84000 style)
+<bdo:creator>
+    <bdo:AgentAsCreator>
+        <bdo:agent>
+            <bdo:Person rdf:about="http://purl.84000.co/resource/core/dharmatasila">
+                <owl:sameAs rdf:resource="http://purl.bdrc.io/resource/P8266" />
+                <skos:prefLabel xml:lang="bo-Latn">Ch&#246;nyi Tsultrim</skos:prefLabel>
+            </bdo:Person>
+        </bdo:agent>
+        <bdo:role rdf:resource="http://purl.bdrc.io/resource/R0ER0026"/><!--role=translator-->
+            <skos:prefLabel xml:lang="en">translator</skos:prefLabel>
+    </bdo:AgentAsCreator>
+</bdo:creator>
+
+roles for Tibetan translations
+translator: R0ER0026
+translatorPandita: R0ER0018 (i.e. source language scholar)
+reviser: R0ER0023
+reciter: R0ER0022
+reviserPandita: R0ER0018 
+
+roles for English translations
+translatorMain R0ER0017
+translatorEng R0ER0026 (just "translator")
+advisor R0ER0021 ("recipient of response to query")
+associateEditor R0ER0015 ("editor")
+externalReviewer R0ER0023 ("reviser")
+reviser R0ER0023 
+dharmaMaster R0ER0030 ("sponsor"?) 
+finalReviewer R0ER0023 ("reviser")
+
+(or maybe use our own URIs since it is internal to )
+
+below have to be incorporated with events
+translationPlace
+revisionPlace
+
