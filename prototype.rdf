@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:eftr="http://purl.84000.co/resource/core/" xmlns:bdr="http://purl.bdrc.io/resource/" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:adm="http://purl.bdrc.io/ontology/admin/" xmlns:bdo="http://purl.bdrc.io/ontology/core/" xmlns:bda="http://purl.bdrc.io/admindata/"><!--Some admin data-->
+    <rdf:Description rdf:about="http://purl.84000.co/resource/core/DatasetAdminData">
+        <adm:metadataLegal rdf:resource="http://purl.84000.co/resource/core/LegalData"/>
+        <adm:adminAbout rdf:resource="http://purl.84000.co/resource/core/WKangyurD"/>
+        <adm:adminAbout rdf:resource="http://purl.84000.co/resource/core/WEKDTOH176"/>
+        <adm:adminAbout rdf:resource="http://purl.84000.co/resource/core/WATTOH176"/>
+        <adm:adminAbout rdf:resource="http://purl.84000.co/resource/core/WAETOH176"/>
+        <adm:adminAbout rdf:resource="http://purl.84000.co/resource/core/WAITOH176"/>
+        <adm:graphId rdf:resource="http://purl.84000.co/resource/core/Dataset"/>
+        <rdf:type rdf:resource="http://purl.bdrc.io/ontology/admin/AdminData"/>
+        <adm:canonicalHtml rdf:resource="http://84000.co/about/copyright"/>
+    </rdf:Description><!--Content provider-->
+    <rdf:Description rdf:about="http://purl.84000.co/resource/core/EFT">
+        <rdf:type rdf:resource="http://purl.bdrc.io/ontology/admin/ContentProvider"/>
+        <rdfs:label>84000</rdfs:label>
+        <adm:canonicalHtml rdf:resource="http://84000.co"/>
+    </rdf:Description><!--Legal data-->
+    <rdf:Description rdf:about="http://purl.84000.co/resource/core/LegalData">
+        <rdf:type rdf:resource="http://purl.bdrc.io/ontology/admin/LegalData"/>
+        <adm:provider rdf:resource="http://purl.84000.co/resource/core/EFT"/>
+        <adm:license rdf:resource="http://purl.bdrc.io/admindata/LicenseCC0"/>
+        <adm:copyrightOwner rdf:resource="http://purl.84000.co/resource/core/EFT"/>
+        <skos:prefLabel xml:lang="en">Metadata related to the translations by 84000, provided under the CC0 License</skos:prefLabel>
+        <adm:canonicalHtml rdf:resource="http://84000.co/about/copyright"/>
+    </rdf:Description><!--The collection--><!--- The Derge Kangyur-->
+    <rdf:Description rdf:about="http://purl.84000.co/resource/core/WKangyurD">
+        <owl:sameAs rdf:resource="http://purl.bdrc.io/resource/MW22084"/>
+        <bdo:script rdf:resource="http://purl.bdrc.io/resource/ScriptDbuCan"/>
+        <skos:prefLabel xml:lang="en">Derge Kangyur</skos:prefLabel>
+        <rdf:type rdf:resource="http://purl.bdrc.io/ontology/core/Instance"/>
+        <adm:canonicalHtml rdf:resource="http://read.84000.co/section/O1JC11494.html"/>
+    </rdf:Description><!--The abstract work of the Indic text-->
+    <rdf:Description rdf:about="http://purl.84000.co/resource/core/WAITOH176">
+        <rdf:type rdf:resource="http://purl.bdrc.io/ontology/core/Work"/>
+        <owl:sameAs rdf:resource="http://purl.bdrc.io/resource/WA0RKI0176"/>
+        <bdo:language rdf:resource="http://purl.bdrc.io/resource/LangInc"/>
+        <bdo:workHasTranslation rdf:resource="http://purl.84000.co/resource/core/WAETOH176"/>
+        <bdo:workHasTranslation rdf:resource="http://purl.84000.co/resource/core/WATTOH176"/>
+        <skos:prefLabel xml:lang="sa-x-iast">Vimala­kīrti­nirdeśa</skos:prefLabel>
+        <skos:altLabel xml:lang="sa-x-iast">Ārya­vimala­kīrti­nirdeśa­nāma­mahā­yāna­sūtra</skos:altLabel>
+        <skos:prefLabel xml:lang="en">The Teaching of Vimalakīrti</skos:prefLabel>
+        <skos:altLabel xml:lang="en">The Noble Mahāyāna Sūtra “The Teaching of Vimalakīrti”</skos:altLabel>
+        <adm:canonicalHtml rdf:resource="https://read.84000.co/translation/toh176.html"/>
+    </rdf:Description><!--The Derge edition of the Tibetan translation-->
+    <rdf:Description rdf:about="http://purl.84000.co/resource/core/WEKDTOH176">
+        <rdf:type rdf:resource="http://purl.bdrc.io/ontology/core/Instance"/>
+        <owl:sameAs rdf:resource="http://purl.bdrc.io/resource/MW22084_0176"/>
+        <bdo:script rdf:resource="http://purl.bdrc.io/resource/ScriptDbuCan"/>
+        <bdo:partOf rdf:resource="http://purl.84000.co/resource/core/WKangyurD"/>
+        <bdo:instanceOf rdf:resource="http://purl.84000.co/resource/core/WATTOH176"/>
+        <skos:prefLabel xml:lang="bo-Latn">dri med grags pas bstan pa</skos:prefLabel>
+        <skos:altLabel xml:lang="bo">འཕགས་པ་དྲི་མ་མེད་པར་གྲགས་པས་བསྟན་པ་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ།</skos:altLabel>
+        <adm:canonicalHtml rdf:resource="https://read.84000.co/translation/toh176.html"/>
+    </rdf:Description><!--The original Tibetan translation-->
+    <rdf:Description rdf:about="http://purl.84000.co/resource/core/WATTOH176">
+        <rdf:type rdf:resource="http://purl.bdrc.io/ontology/core/Work"/>
+        <owl:sameAs rdf:resource="http://purl.bdrc.io/resource/WA0RK0176"/>
+        <bdo:language rdf:resource="http://purl.bdrc.io/resource/LangBo"/>
+        <bdo:workHasInstance rdf:resource="http://purl.84000.co/resource/core/WEKDTOH176"/>
+        <bdo:workTranslationOf rdf:resource="http://purl.84000.co/resource/core/WAITOH176"/>
+        <skos:prefLabel xml:lang="bo">dri med grags pas bstan pa</skos:prefLabel>
+        <skos:altLabel xml:lang="bo">འཕགས་པ་དྲི་མ་མེད་པར་གྲགས་པས་བསྟན་པ་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ།</skos:altLabel>
+        <bf:identifiedBy>
+            <bdr:RefrKTsK>
+                <rdf:value>176</rdf:value>
+            </bdr:RefrKTsK>
+        </bf:identifiedBy>
+        <adm:canonicalHtml rdf:resource="https://read.84000.co/translation/toh176.html"/>
+    </rdf:Description><!--The English translation-->
+    <rdf:Description rdf:about="http://purl.84000.co/resource/core/WAETOH176">
+        <rdf:type rdf:resource="http://purl.bdrc.io/ontology/core/Work"/>
+        <bdo:workTranslationOf rdf:resource="http://purl.84000.co/resource/core/WAITOH176"/>
+        <bdo:language rdf:resource="http://purl.bdrc.io/resource/LangEn"/>
+        <skos:prefLabel xml:lang="en">The Teaching of Vimalakīrti</skos:prefLabel>
+        <skos:altLabel xml:lang="en">The Noble Mahāyāna Sūtra “The Teaching of Vimalakīrti”</skos:altLabel>
+        <adm:canonicalHtml rdf:resource="https://read.84000.co/translation/toh176.html"/><!--Creators-->
+        <bdo:creator>
+            <bdo:AgentAsCreator>
+                <bdo:agent>
+                    <bdo:Person rdf:about="http://purl.84000.co/resource/core/person-8">
+                        <skos:prefLabel xml:lang="en">Dr. Robert Thurman</skos:prefLabel>
+                    </bdo:Person>
+                </bdo:agent>
+                <bdo:role rdf:resource="http://purl.bdrc.io/resource/R0ER0017"/>
+            </bdo:AgentAsCreator>
+        </bdo:creator>
+    </rdf:Description>
+</rdf:RDF>
