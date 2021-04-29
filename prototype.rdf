@@ -46,16 +46,12 @@
 	<Description rdf:about="http://purl.84000.co/resource/core/WAITOH176">
 		<type rdf:resource="http://purl.bdrc.io/ontology/core/Work" />
 		<sameAs rdf:resource="http://purl.bdrc.io/resource/WA0RKI0176" />
-		<!-- will change -->
 		<language rdf:resource="http://purl.bdrc.io/resource/LangInc" />
 		<workHasTranslation rdf:resource="http://purl.84000.co/resource/core/WAETOH176" />
-		<!-- will change -->
 		<workHasTranslation rdf:resource="http://purl.84000.co/resource/core/WATTOH176" />
-		<!-- will change -->
 		<prefLabel xml:lang="sa-x-iast">
 			Vimala­kīrti­nirdeśa
 		</prefLabel>
-		<!-- will change -->
 		<altLabel xml:lang="sa-x-iast">
 			Ārya­vimala­kīrti­nirdeśa­nāma­mahā­yāna­sūtra
 		</altLabel>
@@ -74,44 +70,35 @@
 		<script rdf:resource="http://purl.bdrc.io/resource/ScriptDbuCan" />
 		<partOf rdf:resource="http://purl.84000.co/resource/core/WKangyurD" />
 		<instanceOf rdf:resource="http://purl.84000.co/resource/core/WATTOH176" />
-		<!-- will change -->
 		<prefLabel xml:lang="bo-Latn">
 			dri med grags pas bstan pa
 		</prefLabel>
-		<!-- will change. What is the preferred format here? -->
 		<altLabel xml:lang="bo">
 			འཕགས་པ་དྲི་མ་མེད་པར་གྲགས་པས་བསྟན་པ་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ།
 		</altLabel>
-		<!-- will change -->
 		<canonicalHtml rdf:resource="https://read.84000.co/translation/toh176.html" />
 	</Description>
 	<!-- The original Tibetan translation -->
 	<Description rdf:about="http://purl.84000.co/resource/core/WATTOH176">
-		<!-- will change -->
 		<type rdf:resource="http://purl.bdrc.io/ontology/core/Work" />
 		<sameAs rdf:resource="http://purl.bdrc.io/resource/WA0RK0176" />
-		<!-- will change depending on BDRC ID -->
 		<language rdf:resource="http://purl.bdrc.io/resource/LangBo" />
 		<workHasInstance rdf:resource="http://purl.84000.co/resource/core/WEKDTOH176" />
-		<!-- will change -->
 		<workTranslationOf rdf:resource="http://purl.84000.co/resource/core/WAITOH176" />
-		<!-- will change -->
 		<prefLabel xml:lang="bo-Latn">
 			dri med grags pas bstan pa
 		</prefLabel>
-		<!-- will change. What is the preferred format here -->
 		<altLabel xml:lang="bo">
 			འཕགས་པ་དྲི་མ་མེད་པར་གྲགས་པས་བསྟན་པ་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ།
 		</altLabel>
-		<!-- will change -->
 		<identifiedBy>
 			<RefrKTsK>
 				<value>
 					176
 				</value>
-				<!-- will change. This is the toh num=the derge kangyur num -->
 			</RefrKTsK>
 		</identifiedBy>
+    <TranslatedEvent><eventWho>
 		<creator>
 			<AgentAsCreator>
 				<agent>
@@ -151,6 +138,35 @@
         </role>
 			</AgentAsCreator>
 		</creator>
+    
+    <creator>
+			<AgentAsCreator>
+				<agent>
+					<Person rdf:about="http://purl.84000.co/resource/core/klu-i-rgyal-mtshan">
+						<sameAs rdf:resource="http://purl.bdrc.io/resource/P4CZ15088" />
+						<prefLabel xml:lang="bo-Latn">
+							bla ma dam pa'i dkyil 'khor chen po'i slob dpon dpal lA li ta badzra
+						</prefLabel>
+					</Person>
+				</agent>
+				<role rdf:resource="http://purl.bdrc.io/resource/R0ER0022">
+          <!-- role=reciter -->
+          <prefLabel xml:lang="en">
+            reciter
+          </prefLabel>
+        </role>
+			</AgentAsCreator>
+		</creator></eventWho>
+    <eventWhere>
+      <Place rdf:about="http://purl.84000.co/resource/core/place-1">
+        <sameas rdf:resource="http://purl.bdrc.io/resource/G287" />
+        <prefLabel xml:lang="bo-Latn">
+          bsam yas dgon pa
+        </prefLabel>
+      </Place>
+    </eventWhere>
+  </TranslatedEvent>
+  <RevisedEvent>
     <creator>
 			<AgentAsCreator>
 				<agent>
@@ -173,42 +189,6 @@
 			<AgentAsCreator>
 				<agent>
 					<Person rdf:about="http://purl.84000.co/resource/core/klu-i-rgyal-mtshan">
-						<sameAs rdf:resource="http://purl.bdrc.io/resource/P4CZ15088" />
-						<prefLabel xml:lang="bo-Latn">
-							bla ma dam pa'i dkyil 'khor chen po'i slob dpon dpal lA li ta badzra
-						</prefLabel>
-					</Person>
-				</agent>
-				<role rdf:resource="http://purl.bdrc.io/resource/R0ER0022">
-          <!-- role=reciter -->
-          <prefLabel xml:lang="en">
-            reciter
-          </prefLabel>
-        </role>
-			</AgentAsCreator>
-		</creator>
-    <creator>
-			<AgentAsCreator>
-				<agent>
-					<Person rdf:about="http://purl.84000.co/resource/core/klu-i-rgyal-mtshan">
-						<sameAs rdf:resource="http://purl.bdrc.io/resource/P4CZ15088" />
-						<prefLabel xml:lang="bo-Latn">
-							bla ma dam pa'i dkyil 'khor chen po'i slob dpon dpal lA li ta badzra
-						</prefLabel>
-					</Person>
-				</agent>
-				<role rdf:resource="http://purl.bdrc.io/resource/R0ER0022">
-          <!-- role=reciter -->
-          <prefLabel xml:lang="en">
-            reciter
-          </prefLabel>
-        </role>
-			</AgentAsCreator>
-		</creator>
-    <creator>
-			<AgentAsCreator>
-				<agent>
-					<Person rdf:about="http://purl.84000.co/resource/core/klu-i-rgyal-mtshan">
 						<sameAs rdf:resource="http://purl.bdrc.io/resource/P0TMP096" />
 						<prefLabel xml:lang="bo-Latn">
 							rgya'i lo ts+tsha ba ban de tong A tsar+ya
@@ -216,7 +196,6 @@
 					</Person>
 				</agent>
 				<role rdf:resource="http://purl.bdrc.io/resource/R0ER0018">
-          <!-- role=reciter -->
           <prefLabel xml:lang="en">
             Source Language Scholar
           </prefLabel>
@@ -226,6 +205,95 @@
         </role>
 			</AgentAsCreator>
 		</creator>
+    <eventWhere>
+      <Place rdf:about="http://purl.84000.co/resource/core/place-2">
+        <sameas rdf:resource="http://purl.bdrc.io/resource/G154" />
+        <prefLabel xml:lang="bo-Latn">
+          se ra dgon pa
+        </prefLabel>
+      </Place>
+    </eventWhere>
+  </RevisedEvent>
+  <SecondTranslatedEvent>
+    <creator>
+			<AgentAsCreator>
+				<agent>
+					<Person rdf:about="http://purl.84000.co/resource/core/subhasita">
+						<sameAs rdf:resource="http://purl.bdrc.io/resource/P8280" />
+						<prefLabel xml:lang="bo-Latn">
+							rgya gar gyi mkhan po su b+hA Shi ta
+						</prefLabel>
+					</Person>
+				</agent>
+				<role rdf:resource="http://purl.bdrc.io/resource/R0ER0018">
+          <prefLabel xml:lang="en">
+            Source Language Scholar
+          </prefLabel>
+          <altLabel xml:lang="en">
+            translatorPandita
+          </altLabel>
+        </role>
+			</AgentAsCreator>
+		</creator>
+    <creator>
+			<AgentAsCreator>
+				<agent>
+					<Person rdf:about="http://purl.84000.co/resource/core/subhasita">
+						<sameAs rdf:resource="http://purl.bdrc.io/resource/P8280" />
+						<prefLabel xml:lang="bo-Latn">
+							rgya gar gyi mkhan po su b+hA Shi ta
+						</prefLabel>
+					</Person>
+				</agent>
+				<role rdf:resource="http://purl.bdrc.io/resource/R0ER0026">
+          <prefLabel xml:lang="en">
+            translator
+          </prefLabel>
+        </role>
+			</AgentAsCreator>
+		</creator>
+  </SecondTranslatedEvent>
+  <SecondRevisedEvent>
+    <creator>
+			<AgentAsCreator>
+				<agent>
+					<Person rdf:about="http://purl.84000.co/resource/core/blo-ldan-shes-rab">
+						<sameAs rdf:resource="http://purl.bdrc.io/resource/P2551" />
+						<prefLabel xml:lang="bo-Latn">
+							lo ts+tsha ba chen po shAkya'i dge slong blo ldan shes rab
+						</prefLabel>
+					</Person>
+				</agent>
+				<role rdf:resource="http://purl.bdrc.io/resource/R0ER0023" >
+          <!-- role=reviser -->
+          <prefLabel xml:lang="en">
+            reviser
+          </prefLabel>
+        </role>
+			</AgentAsCreator>
+		</creator>
+    <creator>
+			<AgentAsCreator>
+				<agent>
+					<Person rdf:about="http://purl.84000.co/resource/core/anandashri">
+						<sameAs rdf:resource="http://purl.bdrc.io/resource/P8252" />
+						<prefLabel xml:lang="bo-Latn">
+							paN+Di ta chen po A ran+da shrI
+						</prefLabel>
+					</Person>
+				</agent>
+				<role rdf:resource="http://purl.bdrc.io/resource/R0ER0023" >
+          <!-- role=reviser -->
+          <prefLabel xml:lang="en">
+            Source Language Scholar
+          </prefLabel>
+          <altLabel xml:lang="en">
+            reviserPandita
+          </altLabel>
+        </role>
+			</AgentAsCreator>
+		</creator>
+  </SecondRevisedEvent>
 		<canonicalHtml rdf:resource="https://read.84000.co/translation/toh176.html" />
 		<!-- will change -->
 	</Description>
