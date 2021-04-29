@@ -82,6 +82,8 @@
 	<Description rdf:about="http://purl.84000.co/resource/core/WATTOH176">
 		<type rdf:resource="http://purl.bdrc.io/ontology/core/Work" />
 		<sameAs rdf:resource="http://purl.bdrc.io/resource/WA0RK0176" />
+    <sameAs rdf:resource="http://purl.rkts.eu/resource/WKT0176" />
+    <sameAs rdf:resource="https://buddhanexus.net/tib/text/K10D0176_H0177" />
 		<language rdf:resource="http://purl.bdrc.io/resource/LangBo" />
 		<workHasInstance rdf:resource="http://purl.84000.co/resource/core/WEKDTOH176" />
 		<workTranslationOf rdf:resource="http://purl.84000.co/resource/core/WAITOH176" />
@@ -104,6 +106,8 @@
 				<agent>
 					<Person rdf:about="http://purl.84000.co/resource/core/dharmatasila">
 						<sameAs rdf:resource="http://purl.bdrc.io/resource/P8266" />
+            <sameAs rdf:resource="https://api.treasuryoflives.org/resource/TOLP10970" />
+            <link url="https://treasuryoflives.org/biographies/view/Dharmat%C4%81%C5%9B%C4%ABla/10970" />
 						<prefLabel xml:lang="bo-Latn">
 							Ch&#246;nyi Tsultrim
 						</prefLabel>
@@ -159,7 +163,9 @@
 		</creator></eventWho>
     <eventWhere>
       <Place rdf:about="http://purl.84000.co/resource/core/place-1">
-        <sameas rdf:resource="http://purl.bdrc.io/resource/G287" />
+        <sameAs rdf:resource="http://purl.bdrc.io/resource/G287" />
+        <sameAs rdf:resource="https://sakyaresearch.org/places/231" />
+        <link url="https://en.wikipedia.org/wiki/Samye" />
         <prefLabel xml:lang="bo-Latn">
           bsam yas dgon pa
         </prefLabel>
@@ -188,7 +194,7 @@
     <creator>
 			<AgentAsCreator>
 				<agent>
-					<Person rdf:about="http://purl.84000.co/resource/core/klu-i-rgyal-mtshan">
+					<Person rdf:about="http://purl.84000.co/resource/core/bande-tong-atsarya">
 						<sameAs rdf:resource="http://purl.bdrc.io/resource/P0TMP096" />
 						<prefLabel xml:lang="bo-Latn">
 							rgya'i lo ts+tsha ba ban de tong A tsar+ya
@@ -208,6 +214,7 @@
     <eventWhere>
       <Place rdf:about="http://purl.84000.co/resource/core/place-2">
         <sameas rdf:resource="http://purl.bdrc.io/resource/G154" />
+        
         <prefLabel xml:lang="bo-Latn">
           se ra dgon pa
         </prefLabel>
@@ -318,6 +325,17 @@
 						<prefLabel xml:lang="en">
 							Dr. Robert Thurman
 						</prefLabel>
+            <sameAs rdf:resource="http://viaf.org/viaf/17290654/" />
+            <sameAs rdf:resource="https://catalogue.bnf.fr/ark:/12148/cb12313598t" />
+            <sameAs rdf:resource="https://d-nb.info/gnd/12251839X" />
+            <sameAs rdf:resource="https://isni.org/isni/0000000120956702" />
+            <sameAs rdf:resource="https://id.loc.gov/authorities/names/n83183278.html"/>
+            <sameAs rdf:resource="https://nl.go.kr/authorities/resource/KAC200102264" />
+            <sameAs rdf:resource="http://data.bibliotheken.nl/id/thes/p068503547" />
+            <sameAs rdf:resource="https://snaccooperative.org/ark:/99166/w6sv05jt" />
+            <sameAs rdf:resource="https://www.idref.fr/032027915" />
+            <sameAs rdf:resource="https://www.wikidata.org/wiki/Q1377791"/>
+            <link url="https://en.wikipedia.org/wiki/Robert Thurman" />
 					</Person>
 				</agent>
 				<role rdf:resource="http://purl.bdrc.io/resource/R0ER0017">
@@ -428,7 +446,7 @@
 			<AgentAsCreator>
 				<agent>
 					<Person rdf:about="http://purl.84000.co/resource/core/eft:person-321">
-						<prefLabel xml:lang="bo">
+						<prefLabel xml:lang="bo-Latn">
 							Chökyi Nyima Rinpoche
 						</prefLabel>
 					</Person>
